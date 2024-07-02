@@ -1,0 +1,18 @@
+@import 'normalize.css';
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet');
+@import url('https://fonts.googleapis.com');
+@import url('https://fonts.gstatic.com');
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    --primary: #fe2c55;
+}
+
+body {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 1.6rem;
+}
