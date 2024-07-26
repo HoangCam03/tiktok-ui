@@ -1,8 +1,9 @@
+import { HeaderOnly } from '~/compoents/Layout'; //importLayout
+
 import Home from '~/Pages/Home';
 import Following from '~/Pages/Following';
 import Profile from '~/Pages/Profile';
 import Upload from '~/Pages/Upload';
-import { HeaderOnly } from '~/compoents/Layout';
 const publicRoutes = [
     { path: '/', compoent: Home },
     { path: '/following', compoent: Following },

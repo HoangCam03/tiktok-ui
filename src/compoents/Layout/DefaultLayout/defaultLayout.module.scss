@@ -1,0 +1,16 @@
+.wrapper {
+    display: flex;
+    flex-direction: column; // quay sang chieu doc
+    // align-items: center;
+}
+.container {
+    display: flex;
+    width: 100%;
+    min-height: 1000px;
+    background-color: grey;
+}
+.content {
+    flex: 1;
+    background-color: pink;
+    text-align: center;
+}
