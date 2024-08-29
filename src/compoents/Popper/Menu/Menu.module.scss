@@ -1,0 +1,22 @@
+.menu-list {
+    width: 100%;
+
+    .menu-item {
+        display: flex;
+        color: rgb(22, 24, 35);
+        padding: 10px 8px 10px 16px;
+        font-size: 1.6rem;
+        background-color: transparent;
+        white-space: nowrap;
+        font-size: 1.6rem;
+        font-weight: 550;
+        font-family: 'IBM Plex Sans', TikTokFont, Arial, Tahoma, PingFangSC, sans-serif;
+    }
+}
+
+.menu-item {
+    width: 100%;
+    &:hover {
+        background-color: rgba(22, 24, 35, 0.03);
+    }
+}

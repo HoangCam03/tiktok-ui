@@ -7,7 +7,7 @@ const cx = classNames.bind(styles);
 function Button({
     to,
     href,
-    onclick,
+    onClick,
     leftIcon,
     rightIcon,
     primary = false,
@@ -20,7 +20,7 @@ function Button({
     ...passProps
 }) {
     const props = {
-        onclick,
+        onClick,
         ...passProps,
     };
 
@@ -33,6 +33,8 @@ function Button({
         });
     }
 
+    let Comp = 'button';
+
     if (to) {
         props.to = to;
         Comp = Link;
@@ -41,7 +43,6 @@ function Button({
         Comp = 'a';
     }
 
-    let Comp = 'button';
     const classes = cx('wrapper', {
         primary,
         outline,
